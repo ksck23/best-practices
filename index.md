@@ -1,5 +1,4 @@
 ## Best Practices for beginners
-***
 
 A list of best practices that could help you build a better software:
 
