@@ -1,0 +1,29 @@
+## Best Practices for beginners
+***
+
+A list of best practices that could help you build a better software:
+
+*   **Technology Stack** - Do as much R & D as possible before you select your technology stack that you would like to use for your project. It will cost you lots of time, energy and resources if you decide to change it sometime later.
+*   **Modular** - It's good to follow a modular approach while you build your application. It helps you to plug-in and plug-out modules as in when required.
+*   **Reusable** - Every module that you write should work for any other application that might need the same functionality.
+*   **Avoid Rebuilding** - Rebuilding something that is already available on the web is not a good idea until you see that it doesn't solve your problem anymore.
+*   **Code Organization** - You should organize your project code as intutively as possible. Anyone should be able to easily figure out the folder strucutre, file names and their purpose. You could read about some good existing standards like MVC, MVVM, etc.
+*   **Naming Conventions** - Any name that you give should be as simple and straight forward as possible.
+*   **Small Code Snippets** - Try to avoid writing lengthy functions. Divide your logic into multiple small functions that are easily understandable and can be fixed easily when a problem occurs.
+*   **Comments** - It's always a good idea to make a habbit of writing some brief comments about what the code does as in when you code.
+*   **Avoid Repetitions** - If you see that you are repeating some code logic in multiple places, you should write one function for that logic and use it in all other places. It becomes extreamely difficult to fix in so many places when you know there is a bug in your logic.
+*   **REST APIs** - It's a must for every web engineer to read and understand the HTTP protocol end-to-end. It will fetch you good results in the future. Try to respond with the acurate response codes and handle as many scenarios as possible.
+*   **API response formats** - You have many standard formats define for JSON(Activity Streams 2.0, collection+json etc) and others for XMl etc. Try and follow these formats to ensure better compatibility with other systems/clients who can easily understand these standards.
+*   **Environments** - Provide configurable evironment settings for envs like development, production, etc etc with your project. You will surely need them at a later point.
+*   **Logging** - Try to configure your project with a good logging module that has configurable log levels and align them properly with you environment configuration.
+*   **Authentication Schemes** - Read about various auth schemes like basic auth, oauth 2.0, openID etc to understand which authentication scheme suits well for your project.
+*   **Middleware** - Writing Middleware logic is necessary for certain scenarios. You should try and understand the request and response flow across multiple layers. 2-tier/3-tier architectures etc.
+*   **Structured Data Formats** - You have many options to store data in files like XML,JSON,Haml etc. You should try and understand what type of data can reside in files and what should persist only in databases.
+*   **Databases** - All critical data should persist in databases. You have many databases today like RDMS(MySQl, Postgres etc) or NOSQL(Cassandra, Hbase etc) or JSON Document based dbs(mongodb, rethinkdb etc) or caching dbs(redis, memcached) or graph dbs(neo4j, titandb) etc. You need to do lot of research before you pick a database for your project as each one has it's own advantages and disadvantages.
+*   **Caching** - Caching your data is crucial for performance centric systems to reduce the response times. You can read about caching databases and cache invalidation problems, write through cache etc.
+*   **Scalability** - Scalability of your application is something that has to be in mind from the day 1 if you have an increasing user base. You can scale every part of your application infrastructure but you should do it only when needed. Only when you see some bottleneck in a component, you should try and scale that part.
+*   **Maintainability** - It's one of the key things that every architect should think about. We often end up solving a problem by designing a complex architecture but later it becomes very very difficult to maintain it. It's a good habbit to also think about maintainability aspects.
+*   **Extensibility** - Any software that is no more extensible can eventually be called DEAD. No one likes to run into a death trap, so it would be good to create a flexible architecture for the project as the requirements keep changing.
+*   **Simplicity** - Keep your application architecture as simple and intutive as possible for the greatest problems in this world have a simple solution that we don't really look at. It takes great experience and creativity to keep things simple as they grow.
+*   **Reliability** - Everyone expects your software to be reliable before they buy it. When we select new and pre-mature technologies we need to be cautious about the reliability issues and unsolved problems that come up.
+*   **Decision Making** - You should never fluctuate frequently in your decisions or selection process. Keep yourself cool, give it sometime and then take a gentle move. Sometimes you should not even delay too much. A controlled thought process is something that every one has to learn from the beginning.
