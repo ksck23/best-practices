@@ -10,6 +10,7 @@ A list of best practices that could help you build a better software:
 *   **Naming Conventions** - Any name that you give should be as simple and straight forward as possible.
 *   **Small Code Snippets** - Try to avoid writing lengthy functions. Divide your logic into multiple small functions that are easily understandable and can be fixed easily when a problem occurs.
 *   **Comments** - It's always a good idea to make a habbit of writing some brief comments about what the code does as in when you code.
+*   **Style-Guides** - To start with good coding styles, you can follow [Google-Coding-StyleGuide](https://code.google.com/p/google-styleguide/)
 *   **Avoid Repetitions** - If you see that you are repeating some code logic in multiple places, you should write one function for that logic and use it in all other places. It becomes extreamely difficult to fix in so many places when you know there is a bug in your logic.
 *   **REST APIs** - It's a must for every web engineer to read and understand the HTTP protocol end-to-end. It will fetch you good results in the future. Try to respond with the acurate response codes and handle as many scenarios as possible.
 *   **API response formats** - You have many standard formats define for JSON(Activity Streams 2.0, collection+json etc) and others for XMl etc. Try and follow these formats to ensure better compatibility with other systems/clients who can easily understand these standards.
